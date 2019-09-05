@@ -7,10 +7,18 @@ public class RandomArrLetras {
 
 	public static char[] generarArreglo(int cant) {
 		Random rnd = new Random();
-		char[] arr1 = new char[rnd.nextInt(cant)];
-		for (int i = 0; i < arr1.length; i++) {
-			arr1[i] = letras[rnd.nextInt(25)];
+		char[] arr = new char[cant];
+		for (int i = 0; i < arr.length; i++) {
+			arr[i] = letras[rnd.nextInt(25)];
 		}
-		return arr1;
+		return arr;
+	}
+
+	public static char[] generarArregloPermutacion(char[] arr) {
+		char[] arrPermutacion = new char[arr.length];
+		for (int i = 0; i < arr.length; i++) {
+			arrPermutacion[i] = arr[arr.length - 1 - i];
+		}
+		return arrPermutacion;
 	}
 }
