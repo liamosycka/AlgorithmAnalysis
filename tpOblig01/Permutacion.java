@@ -6,8 +6,8 @@ public class Permutacion {
 		boolean respuesta=false;
 		if (arr1 != null && arr2 != null) {
 			if (arr1.length == arr2.length) {
-				Ordenamiento.countingsort(arr1);
-				Ordenamiento.countingsort(arr2);
+				CountingSort.sort(arr1);
+				CountingSort.sort(arr2);
 			}
 			if(Arrays.equals(arr1, arr2)) {
 				respuesta=true;
