@@ -1,3 +1,4 @@
+package metodos_ordenamiento;
 
 public class CountingSort {
 	public static void sort(char arr[]) {

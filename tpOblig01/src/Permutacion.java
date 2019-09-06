@@ -1,4 +1,7 @@
+package src;
 import java.util.Arrays;
+
+import metodos_ordenamiento.CountingSort;
 
 public class Permutacion {
 

@@ -1,6 +1,10 @@
+package test;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import src.Permutacion;
+import src.RandomArrLetras;
 
 class PermutacionTest {
 

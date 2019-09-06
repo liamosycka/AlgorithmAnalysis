@@ -1,6 +1,7 @@
+package metodos_ordenamiento;
 
 public class HeapSort {
-	public static void heapsort(char[] a) {
+	public static void sort(char[] a) {
 		int n = a.length;
 
 		// Build heap (rearrange array)
