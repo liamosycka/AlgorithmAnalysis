@@ -5,7 +5,10 @@ import org.junit.jupiter.api.Test;
 
 import src.Permutacion;
 import src.RandomArrLetras;
-
+/*Integrantes: 	Montiel Edison    FAI - 660
+				Osycka Liam        FAI - 1891
+				Campetella Mariano    FAI - 494
+*/
 class PermutacionTest {
 
 	@Test

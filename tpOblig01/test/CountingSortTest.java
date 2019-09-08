@@ -8,6 +8,10 @@ import metodos_ordenamiento.CountingSort;
 import metodos_ordenamiento.HeapSort;
 import src.RandomArrLetras;
 
+/*Integrantes: 	Montiel Edison    FAI - 660
+				Osycka Liam        FAI - 1891
+				Campetella Mariano    FAI - 494
+*/
 class CountingSortTest {
 
 	@Test
@@ -25,7 +29,7 @@ class CountingSortTest {
 
 	@Test
 	public void testTiempos() {
-		char[] arr = RandomArrLetras.generarArreglo(500000);
+		char[] arr = RandomArrLetras.generarArreglo(1000000);
 		double t1 = System.currentTimeMillis();
 		CountingSort.sort(arr);
 		double t2 = System.currentTimeMillis();

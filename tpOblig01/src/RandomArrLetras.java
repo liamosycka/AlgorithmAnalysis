@@ -1,6 +1,9 @@
 package src;
 import java.util.Random;
-
+/*Integrantes: 	Montiel Edison    FAI - 660
+				Osycka Liam        FAI - 1891
+				Campetella Mariano    FAI - 494
+*/
 public class RandomArrLetras {
 
 	static final char[] letras = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r',

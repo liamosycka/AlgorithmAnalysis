@@ -1,4 +1,8 @@
 package metodos_ordenamiento;
+/*Integrantes: 	Montiel Edison    FAI - 660
+				Osycka Liam        FAI - 1891
+				Campetella Mariano    FAI - 494
+*/
 
 public class CountingSort {
 	public static void sort(char arr[]) {

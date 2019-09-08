@@ -2,6 +2,10 @@ package src;
 import java.util.Arrays;
 
 import metodos_ordenamiento.CountingSort;
+/*Integrantes: 	Montiel Edison    FAI - 660
+				Osycka Liam        FAI - 1891
+				Campetella Mariano    FAI - 494
+*/
 
 public class Permutacion {
 
